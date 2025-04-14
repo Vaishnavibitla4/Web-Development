@@ -1,0 +1,91 @@
+body{
+    background-color: cornsilk;
+    font-family: Roboto, Arial;
+    overflow-x: hidden;
+}
+.outer{
+    display: grid;
+    grid-template-rows: 80px 80px;
+    width: 400px;
+    text-align: end;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+}
+.frame1{
+    font-size: x-large;
+    background-color:white;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.frame2{
+    font-size: x-large;
+    background-color: rgb(203, 207, 203);
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.numdisplay{
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    gap: 0;
+}
+.numdisplay >div {
+    padding: none;
+    background-color: #dbbcad;
+    align-content: center;
+    text-align: center;
+    font-size: larger;
+}
+button{
+    height: 60px;
+    width: 80px;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+}
+.op{
+    background-color: rgb(166, 172, 221);
+    color: rgb(28, 5, 92);
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: all 0.3s ease-in-out;
+}
+.num{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: all 0.3s ease-in-out;
+}
+.top-left{
+    border-top-left-radius: 30px;
+}
+.top-right{
+    border-top-right-radius: 30px;
+}
+.bottom-left{
+    border-bottom-left-radius: 30px;
+}
+.bottom-right{
+    border-bottom-right-radius: 30px;
+}
+.main{
+    background-color: rgb(146, 206, 224);
+    border: 2px solid rgb(26, 37, 138);
+    margin: auto;
+    height: 660px;
+    width: 450px;
+    border-radius: 10px;
+}
+h1{
+    line-height: 10px;
+    text-align: center;
+    padding: none;
+}

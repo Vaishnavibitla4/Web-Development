@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+    
+    <div class="main">
+        <h1>CALCULATOR</h1>
+        <div class="outer">
+            <div class="frame1">
+                <p id="frame1"></p>
+            </div>
+            <div class="frame2">
+                <p id="frame2"></p>
+            </div>
+        </div>
+        <div class="numdisplay">
+            <div class="top-left"><button onclick="allclear()" class="op ac" value="ac">AC</button></div>
+            <div><button onclick="del()" class="op del" value="del"><img src="backspace.svg" height="30px" width="30px"></button></div>
+            <div><button onclick="input(this)" class="op plus" value="+">+</button></div>
+            <div class="top-right"><button onclick="input(this)" class="op minus" value="-">-</button></div>
+            <div><button onclick="input(this)" class="num" value="1">1</button></div>
+            <div><button onclick="input(this)" class="num" value="2">2</button></div>
+            <div><button onclick="input(this)" class="num" value="3">3</button></div>
+            <div><button onclick="input(this)" class="op mult" value="*">*</button></div>
+            <div><button onclick="input(this)" class="num" value="4">4</button></div>
+            <div><button onclick="input(this)" class="num" value="5">5</button></button></div>
+            <div><button onclick="input(this)" class="num" value="6">6</button></div>
+            <div><button onclick="input(this)" class="op div" value="/">/</button></div>
+            <div><button onclick="input(this)" class="num" value="7">7</button></div>
+            <div><button onclick="input(this)" class="num" value="8">8</div>
+            <div><button onclick="input(this)" class="num" value="9">9</div>
+            <div><button onclick="input(this)" class="op pow" value="**">**</button></div>
+            <div class="bottom-left"><button onclick="input(this)" class="num" value="0">0</button></div>
+            <div><button onclick="input(this)" class="num" value="00">00</button></div>
+            <div><button onclick="input(this)" class="op point" value=".">.</button></div>
+            <div class="bottom-right"><button onclick="input(this)" class="op equ" value="=">=</button></div>
+        </div>
+    </div>
+    
+</body>
+</html>
